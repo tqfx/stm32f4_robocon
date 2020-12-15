@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build",
+            "command": "make",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+        },
+        {
+            "type": "shell",
+            "label": "Update",
+            "command": "make;make update",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+        },
+        {
+            "type": "shell",
+            "label": "Reset",
+            "command": "make reset",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+        },
+    ]
+}
